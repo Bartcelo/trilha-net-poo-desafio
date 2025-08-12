@@ -6,11 +6,11 @@ namespace DesafioPOO.Models
 
         public Nokia(string numero) : base(numero)
          { }
-         
+
         // TODO: Sobrescrever o método "InstalarAplicativo"
         public override void InstalarAplicativo(string nomeApp)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"O nome do Aplicativo Nokia é {nomeApp}");
         }
     }
 }
